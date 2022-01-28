@@ -399,6 +399,21 @@ h3 {
   padding: 5rem 0;
   position: relative;
 }
+@media (min-width: 480px) {
+  .header h1 {
+    color: red;
+  }
+}
+@media (min-width: 768px) {
+  .header h1 {
+    color: palevioletred;
+  }
+}
+@media (min-width: 1024px) {
+  .header h1 {
+    color: #3f238d;
+  }
+}
 .header::before {
   content: "";
   background-color: #000000;
@@ -414,9 +429,6 @@ h3 {
 }
 .header a {
   color: mintcream;
-}
-.header h1 {
-  color: moccasin;
 }
 
 .header-inicio {
