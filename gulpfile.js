@@ -59,10 +59,3 @@ exports.default = series(imagenes, versionWebp, versionAvif, css, dev );
 // series: Se inicia una tarea, y hasta que finaliza, inicia la siguiente
 
 //parallel: Todas se inician al mismo tiempo
-
-var gulp = require('gulp');
-
-gulp.task('cumbi', function(done) {
-  console.log('Hello Cumbi!!!');
-  done();
-});
