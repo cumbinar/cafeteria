@@ -54,7 +54,8 @@ exports.dev = dev;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
 exports.versionAvif = versionAvif;
-exports.default = series(imagenes, versionWebp, versionAvif, css, dev );
+//exports.default = series(imagenes, versionWebp, versionAvif, css, dev);
+exports.default = series(css, dev );
 
 // series: Se inicia una tarea, y hasta que finaliza, inicia la siguiente
 

@@ -4,6 +4,15 @@
 .header{
     padding: 5rem 0;
     position: relative;
+
+    a{
+        color: blanchedalmond;
+    }
+    
+    h1{
+        color: yellow;
+        font-size: 2rem;
+    }
     
 @include m.telefono { 
     h1{
@@ -14,6 +23,8 @@
  @include m.tablet { 
      h1{
          color: blue;
+         font-size: 3rem;
+         background-color: white;
      }
   }
 
@@ -36,10 +47,6 @@
 
     .contenido-header{
         position: relative;
-    }
-
-    a{
-        color: mintcream;
     }
 }
 
