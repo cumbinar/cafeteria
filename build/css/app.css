@@ -406,12 +406,12 @@ h3 {
 }
 @media (min-width: 768px) {
   .header h1 {
-    color: palevioletred;
+    color: blue;
   }
 }
 @media (min-width: 1024px) {
   .header h1 {
-    color: #3f238d;
+    color: yellowgreen;
   }
 }
 .header::before {
