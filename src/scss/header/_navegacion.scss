@@ -6,7 +6,6 @@
     flex-direction: column;
     margin-top: 5rem;
 
-
     @include m.tablet {
         flex-direction: row;
         gap: 2rem;
