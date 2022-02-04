@@ -485,7 +485,7 @@ ul {
   }
 }
 
-h1, h2, h3 {
+h1, h2, .heading-blanco, h3 {
   font-family: "Raleway", sans-serif;
   margin: 0 0 5rem;
   text-transform: uppercase;
@@ -497,17 +497,17 @@ h1 {
   font-size: 4rem;
 }
 
-h2 {
+h2, .heading-blanco {
   font-size: 3.6rem;
   color: #5E311E;
 }
-h2 span {
+h2 span, .heading-blanco span {
   color: #C39C63;
   font-size: 1.6rem;
   display: block;
   padding-bottom: 2rem;
 }
-h2::after {
+h2::after, .heading-blanco::after {
   content: "";
   display: block;
   width: 10rem;
@@ -515,6 +515,16 @@ h2::after {
   margin: auto;
   background-image: url(../img/cafe.svg);
   background-size: 10rem;
+}
+
+.heading-blanco {
+  color: #FFFFFF;
+}
+.heading-blanco span {
+  color: #FFFFFF;
+}
+.heading-blanco ::after {
+  display: none;
 }
 
 h3 {
@@ -633,4 +643,8 @@ h3 {
   .galeria .imagen:nth-child(10) img {
     width: 62rem;
   }
+}
+
+.nuestro-menu {
+  background-color: #5E311E;
 }
