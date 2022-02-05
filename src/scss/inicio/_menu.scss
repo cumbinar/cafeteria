@@ -5,7 +5,7 @@
     background-image: url(../img/menu_arriba.svg), url(../img/menu_abajo.svg), linear-gradient(to top, v.$primario, v.$primario);
     padding: 15rem 5rem 20rem 5rem;
     background-repeat: no-repeat;
-    background-position: center 5rem, center 92%, 100%;
+    background-position: center 5rem, center 98%, 100%;
     background-size: 200%;
 
     @include m.tablet { 
@@ -15,4 +15,35 @@
      @include m.desktop { 
          background-size: 50%, 50%, 100%;
       }
+}
+
+.grid-menu{
+    @include m.tablet { 
+        @include m.grid(2, 2rem);
+        column-gap: 15rem;
+     }
+}
+
+.menu{
+    h3{
+        color: v.$blanco;
+    }
+
+    li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+           color: v.$blanco;
+           font-size: 1.8rem;
+            span{
+                display: block;
+                color: v.$secundario;
+                line-height: 1.5;
+            }
+        }
+        .precio{
+            font-size: 3rem;
+        }
+    }
 }
