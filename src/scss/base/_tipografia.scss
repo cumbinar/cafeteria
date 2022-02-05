@@ -42,7 +42,7 @@ h2{
     span { 
         color: v.$blanco}
 
-    ::after{
+    &::after{
         display: none;
     }
 }

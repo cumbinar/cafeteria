@@ -523,7 +523,7 @@ h2::after, .heading-blanco::after {
 .heading-blanco span {
   color: #FFFFFF;
 }
-.heading-blanco ::after {
+.heading-blanco::after {
   display: none;
 }
 
@@ -646,5 +646,11 @@ h3 {
 }
 
 .nuestro-menu {
-  background-color: #5E311E;
+  background-image: url(../img/menu_arriba.svg), url(../img/menu_abajo.svg), linear-gradient(to top, #5E311E, #5E311E);
+  padding: 15rem 5rem 20rem 5rem;
+}
+@media (min-width: 768px) {
+  .nuestro-menu {
+    padding: 15rem 0 20rem 0;
+  }
 }
