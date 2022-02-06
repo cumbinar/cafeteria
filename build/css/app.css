@@ -387,6 +387,14 @@ ul {
   background-color: #5E311E;
 }
 
+.margin-negativo-10 {
+  margin-top: -10rem;
+}
+
+.bg-whithe {
+  background-color: #FFFFFF;
+}
+
 .header {
   padding: 5rem 0;
   position: relative;
@@ -692,4 +700,13 @@ h3 {
 }
 .menu li .precio {
   font-size: 3rem;
+}
+
+.nuestros-testimoniales {
+  padding: 2rem;
+}
+@media (min-width: 768px) {
+  .nuestros-testimoniales {
+    padding: 10rem;
+  }
 }
