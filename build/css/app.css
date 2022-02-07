@@ -392,7 +392,7 @@ ul {
 }
 
 .bg-whithe {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .header {
@@ -419,7 +419,7 @@ ul {
 }
 .header .contenido-header h1 {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: normal;
   margin-top: 5rem;
   font-size: 2.5rem;
@@ -453,7 +453,7 @@ ul {
 }
 .nav-principal a {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -526,10 +526,10 @@ h2::after, .heading-blanco::after {
 }
 
 .heading-blanco {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .heading-blanco span {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .heading-blanco::after {
   display: none;
@@ -539,8 +539,22 @@ h3 {
   font-size: 3.2rem;
 }
 
+.footer {
+  background-color: #5E311E;
+}
+.footer .contenido-footer {
+  padding: 5rem;
+}
+@media (min-width: 768px) {
+  .footer .contenido-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
 .contenido-principal {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 5rem 2rem;
 }
 @media (min-width: 768px) {
@@ -682,7 +696,7 @@ h3 {
 }
 
 .menu h3 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .menu li {
   display: flex;
@@ -690,7 +704,7 @@ h3 {
   align-items: center;
 }
 .menu li p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.8rem;
 }
 .menu li p span {
