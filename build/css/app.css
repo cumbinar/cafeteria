@@ -798,3 +798,7 @@ h3 {
   border-left: 0.5rem solid #5E311E;
   font-size: 2rem;
 }
+
+.contenido-proceso .imagen img {
+  margin-bottom: 5rem;
+}
