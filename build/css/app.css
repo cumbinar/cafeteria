@@ -774,6 +774,15 @@ h3 {
     gap: 2rem;
   }
 }
+.contenido-nosotros .imagen {
+  margin-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .contenido-nosotros .imagen {
+    margin-right: 5rem;
+    margin: 0 2rem 0 0;
+  }
+}
 .contenido-nosotros .imagen img {
   transform: rotate(-6deg);
   border: 3rem solid #ffffff;
