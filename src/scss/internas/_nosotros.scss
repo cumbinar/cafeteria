@@ -22,5 +22,11 @@
 
     .texto{
 
+        blockquote{
+            margin: 0;
+            padding: 1rem;
+            border-left: .5rem solid v.$primario;
+            font-size: 2rem;
+        }
     }
 }
