@@ -509,7 +509,7 @@ h1, h2, .heading-blanco, h3 {
   margin: 0 0 5rem;
   text-transform: uppercase;
   text-align: center;
-  line-height: 1.6rem;
+  line-height: 3.6rem;
 }
 
 h1 {
@@ -799,6 +799,18 @@ h3 {
   font-size: 2rem;
 }
 
-.contenido-proceso .imagen img {
+.proceso-cafe .imagen img {
   margin-bottom: 5rem;
+}
+.proceso-cafe .texto h3 {
+  margin-bottom: 0;
+  text-align: left;
+  color: #5E311E;
+}
+.proceso-cafe .texto h3::after {
+  content: " ";
+  display: block;
+  width: 50%;
+  height: 5px;
+  background-color: #C39C63;
 }
