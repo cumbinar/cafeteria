@@ -799,18 +799,28 @@ h3 {
   font-size: 2rem;
 }
 
+.proceso-cafe {
+  margin-bottom: 3rem;
+}
 @media (min-width: 768px) {
   .proceso-cafe {
     display: flex;
     gap: 5rem;
+    align-items: center;
   }
+}
+.proceso-cafe:last-of-type {
+  margin-bottom: 0;
+}
+.proceso-cafe:nth-child(even) .texto {
+  order: 1;
+}
+.proceso-cafe:nth-child(even) .imagen {
+  order: 2;
 }
 .proceso-cafe .imagen,
 .proceso-cafe .texto {
   flex: 1;
-}
-.proceso-cafe .imagen img {
-  margin-bottom: 5rem;
 }
 .proceso-cafe .texto {
   margin-top: 1rem;
