@@ -495,13 +495,12 @@ ul {
 h1, h2, .heading-blanco, h3 {
   font-family: "Raleway", sans-serif;
   margin: 0 0 5rem;
-  text-transform: uppercase;
   text-align: center;
   line-height: 3.6rem;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 h2, .heading-blanco {
