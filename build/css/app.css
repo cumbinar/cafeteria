@@ -380,26 +380,6 @@ ul {
   padding: 0;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.bg-primario {
-  background-color: #5E311E;
-}
-
-.margin-negativo-10 {
-  margin-top: -10rem;
-}
-
-.bg-whithe {
-  background-color: #ffffff;
-}
-
-.padding-bottom-0 {
-  padding-bottom: 0;
-}
-
 .header {
   padding: 5rem 0;
   position: relative;
@@ -870,4 +850,24 @@ h3 {
 }
 .contenido-menu .texto p {
   font-size: 1.7rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-primario {
+  background-color: #5E311E;
+}
+
+.margin-negativo-10 {
+  margin-top: -10rem;
+}
+
+.bg-whithe {
+  background-color: #ffffff;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0;
 }
