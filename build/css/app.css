@@ -438,6 +438,10 @@ ul {
   background-image: url(../img/header_menu.jpg);
 }
 
+.header-galeria {
+  background-image: url(../img/header_galeria.jpg);
+}
+
 .nav-principal {
   display: flex;
   flex-direction: column;
@@ -454,7 +458,6 @@ ul {
   text-align: center;
   color: #ffffff;
   font-size: 1.6rem;
-  text-transform: uppercase;
   font-weight: 400;
   margin-bottom: 1rem;
 }
@@ -511,7 +514,7 @@ h2 span, .heading-blanco span {
   color: #C39C63;
   font-size: 1.6rem;
   display: block;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 h2::after, .heading-blanco::after {
   content: "";
