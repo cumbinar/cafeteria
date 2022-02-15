@@ -6,9 +6,29 @@
        @include m.grid(2, v.$separacion);
        background-image: url(../img/granos_cafe.jpg);
        background-repeat: no-repeat;
-       background-position: right center;
+       background-position: right center;  
     }
-    form{
+}
 
+.formulario{
+    .campo{
+        margin-bottom: 2rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        label {
+            display: block;
+            font-size: 2rem;
+        }
+        
+        input[type= "submit"]{
+            background-color: v.$primario;
+            width: 100%;
+            border: none;
+            padding: 1rem;
+            color: v.$blanco;
+        }
     }
 }

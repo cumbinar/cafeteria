@@ -868,6 +868,25 @@ h3 {
     background-position: right center;
   }
 }
+
+.formulario .campo {
+  margin-bottom: 2rem;
+}
+.formulario .campo:last-of-type {
+  margin-bottom: 0;
+}
+.formulario .campo label {
+  display: block;
+  font-size: 2rem;
+}
+.formulario .campo input[type=submit] {
+  background-color: #5E311E;
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  color: #ffffff;
+}
+
 .text-center {
   text-align: center;
 }
