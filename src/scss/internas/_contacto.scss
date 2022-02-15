@@ -2,7 +2,48 @@
 @use 'base/mixins' as m;
 
 .contenido-contacto{
-    form{
+   @include m.tablet { 
+       @include m.grid(2, v.$separacion);
+       background-image: url(../img/granos_cafe.jpg);
+       background-repeat: no-repeat;
+       background-position: right center; 
+       background-size: 40%; 
+    }
+}
+
+.formulario{
+    .campo{
+        margin-bottom: 2rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        label {
+            display: block;
+            font-size: 2rem;
+        }
         
+        input:not([type="submit"]),
+        select{
+            width: 100%;
+            padding: 1rem;
+            border: .5rem solid v.$primario;
+           
+        }
+
+        input[type= "submit"]{
+            background-color: v.$primario;
+            width: 100%;
+            border: none;
+            padding: 1rem;
+            color: v.$blanco;
+            text-transform: uppercase;
+
+            &:hover{
+                cursor: pointer;
+                background-color: v.$negro;
+            }
+        }
     }
 }
