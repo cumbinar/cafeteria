@@ -858,6 +858,16 @@ h3 {
   font-size: 1.7rem;
 }
 
+@media (min-width: 768px) {
+  .contenido-contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    background-image: url(../img/granos_cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+}
 .text-center {
   text-align: center;
 }

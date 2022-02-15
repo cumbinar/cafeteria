@@ -2,7 +2,13 @@
 @use 'base/mixins' as m;
 
 .contenido-contacto{
+   @include m.tablet { 
+       @include m.grid(2, v.$separacion);
+       background-image: url(../img/granos_cafe.jpg);
+       background-repeat: no-repeat;
+       background-position: right center;
+    }
     form{
-        
+
     }
 }
