@@ -15,8 +15,10 @@ function css( done ) {
     /*Compilar SASS*/
     /*Pasos: 1 identificar archivo 2 Compilar 3 guardar el CSS*/
     src('src/scss/app.scss')
+        .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(postcss([autoprefixer(dev)]))
+        .pipe(sourcemaps.write('.'))
         .pipe(dest('build/css'))
     done();
 }
