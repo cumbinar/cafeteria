@@ -13,6 +13,7 @@
   "author": "Eduardo Serafín Guevara Melo",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^5.0.17",
     "gulp": "^4.0.2",
     "gulp-avif": "^1.0.1",
     "gulp-imagemin": "^7.0.0",
